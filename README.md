@@ -9,7 +9,7 @@ This Google Apps Script project adds a sidebar to a Google Doc, Google Sheet, or
 To install and set up this project, follow these steps:
 
 1. **Clone the repository:**
-   - `git clone https://github.com/ruanbrand5/appsscript.git`
+   - `git clone https://github.com/ruanbrand5/GAS_Show-User-Guide`
 
 2. **Open the Google Doc, Sheet, or Slide where you want to add the sidebar.**
 
