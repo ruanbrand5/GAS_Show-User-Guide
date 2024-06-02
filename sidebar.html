@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css">
+  <style>
+    #openButtonContainer {
+      text-align: center;
+      margin-top: 20px; /* Add margin to create space between button and footer */
+    }
+    #openButton {
+      background-color: #e0e0e0; /* Light Gray */
+      color: #424242; /* Dark Gray */
+    }
+    footer {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 12px;
+      text-align: center;
+    }
+    .gray {
+      color: #757575; /* Gray */
+    }
+  </style>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout">
+    <main class="mdl-layout__content">
+      <div class="mdl-card__supporting-text" id="openButtonContainer">
+        <button id="openButton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="openUserGuide()">
+          Open Document
+        </button>
+      </div>
+      <footer>
+        <span>
+            <hr>
+            Experiencing an issue with the process? Send an email to <a href="mailto:example@email.com">example@email.com</a>.
+        </span>
+      </footer>
+    </main>
+  </div>
+  <script>
+    function openUserGuide() {
+      google.script.run.openUserGuide();
+    }
+  </script>
+</body>
+</html>
